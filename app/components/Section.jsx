@@ -1,11 +1,5 @@
 
-type SectionProps = {
-    type: string;
-    title: string;
-};
-
-
-export default function Section({ type, title }: SectionProps)
+export default function Section({ type, title })
 {
     return (
         <section className="p-4">
