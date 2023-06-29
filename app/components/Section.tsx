@@ -44,7 +44,7 @@ export default function Section({ type, title }: SectionProps)
 
 
             {type === 'featured-games' && (
-                <div className="grid grid-cols-4 gap-4">
+                <div className="grid grid-cols-4 gap-4" id="sport">
                     <div className="text-center">
                         <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" alt="Football" className="mx-auto mb-2 max-h-96" />
                         <h4 className="font-semibold">Football</h4>
@@ -70,7 +70,7 @@ export default function Section({ type, title }: SectionProps)
 
 
             {type === 'testimonials' && (
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-4" id="testimonial">
                     <div className="p-4 bg-gray-100 rounded shadow text-center">
                         <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80" alt="User 1" className="mx-auto rounded-full w-16 mb-2" />
                         <p>"This app is amazing! I've had so much fun betting on my favorite sports."</p>
@@ -86,7 +86,7 @@ export default function Section({ type, title }: SectionProps)
 
 
             {type === 'news' && (
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-3 gap-4" id="news">
                     <div className="p-4 bg-white rounded shadow">
                         <img src="https://images.unsplash.com/photo-1504279807002-09854ccc9b6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="News 1" className="mb-2" />
                         <h4 className="font-semibold">Latest Betting Trends</h4>
@@ -110,7 +110,7 @@ export default function Section({ type, title }: SectionProps)
 
 
             {type === 'faqs' && (
-                <div>
+                <div id="faq">
                     <div className="p-4 bg-white rounded shadow mb-4">
                         <h4 className="font-semibold">How do I create an account?</h4>
                         <p>Click on the "Sign Up" button on the homepage and fill in the registration form.</p>
@@ -127,7 +127,7 @@ export default function Section({ type, title }: SectionProps)
             )}
 
             {type === 'contact' && (
-                <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+                <div id="contact" className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
                     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                         <iframe
                             width="100%"
