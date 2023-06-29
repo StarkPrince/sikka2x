@@ -29,7 +29,7 @@ export default function Section({ type, title })
                         <p>Add funds to your account using various payment methods.</p>
                     </div>
                     <div className="text-center">
-                        <img src="https://images.unsplash.com/photo-1518133227682-c0e3e34de21b?ixlib=rb-4.0.3" alt="Step 3" className="mx-auto mb-2 max-w-md max-h-80" />
+                        <img src="https://images.unsplash.com/photo-1518133227682-c0e3e34de21b?ixlib=rb-4.0.3" alt="Step 3" className="mx-auto" />
                         <h4 className="font-semibold">Start Betting</h4>
                         <p>Choose your games and place your bets.</p>
                     </div>
