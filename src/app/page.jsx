@@ -15,8 +15,8 @@ export default function Home() {
                 <Section type="featured-games" title="Featured Games" />
                 <Section type="testimonials" title="What Our Users Say" />
                 <Section type="news" title="Latest News and Articles" />
-                <Section type="faqs" title="Frequently Asked Questions" />
-                <Section type="contact" title="Contact Us" />
+                <Section type="faqs" />
+                <Section type="contact" />
             </main>
             <Footer />
         </div>

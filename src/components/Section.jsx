@@ -17,18 +17,18 @@ export default function Section({ type, title })
 
 
             {type === 'how-it-works' && (
-                <div className="grid grid-cols-3 gap-4 text-primaryYellow p-4 rounded-lg" id="about">
-                    <div className="text-center p-4 m-2 bg-primaryYellow text-primaryRed rounded-lg">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 bg-amber-100 text-primaryRed `rounded-lg" id="about">
+                    <div className="text-center p-4 m-2 bg-amber-300 text-primaryRed rounded-lg">
                         <img src="https://plus.unsplash.com/premium_photo-1661589873567-7bd0bd808fcc?ixlib=rb-4.0.3" alt="Step 1" className="mx-auto mb-2 w-72 h-48 object-cover rounded-lg" />
                         <h4 className="font-semibold">Create an Account</h4>
                         <p>Sign up and create your betting account.</p>
                     </div>
-                    <div className="text-center p-4 m-2 bg-primaryYellow text-primaryRed rounded-lg">
+                    <div className="text-center p-4 m-2 bg-amber-300 text-primaryRed rounded-lg">
                         <img src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3" alt="Step 2" className="mx-auto mb-2 w-72 h-48 object-cover rounded-lg" />
                         <h4 className="font-semibold">Make a Deposit</h4>
                         <p>Add funds to your account using various payment methods.</p>
                     </div>
-                    <div className="text-center p-4 m-2 bg-primaryYellow text-primaryRed rounded-lg">
+                    <div className="text-center p-4 m-2 bg-amber-300 text-primaryRed rounded-lg">
                         <img src="https://images.unsplash.com/photo-1518133227682-c0e3e34de21b?ixlib=rb-4.0.3" alt="Step 3" className="mx-auto mb-2 w-72 h-48 object-cover rounded-lg" />
                         <h4 className="font-semibold">Start Betting</h4>
                         <p>Choose your games and place your bets.</p>
@@ -38,23 +38,23 @@ export default function Section({ type, title })
 
 
             {type === 'featured-games' && (
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 bg-primaryRed text-primaryYellow rounded-lg" id="sports">
-                    <div className="text-center p-4 text-primaryYellow bg-primaryRed rounded-lg">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4  text-primaryYellow rounded-lg" id="sports">
+                    <div className="text-center p-4 text-primaryYellow bg-red-800 rounded-lg">
                         <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" alt="Football" className="mx-auto mb-2 w-48 h-32 object-cover rounded-lg" />
                         <h4 className="font-semibold">Football</h4>
                         <p>Bet on the latest football matches.</p>
                     </div>
-                    <div className="text-center p-4 text-primaryYellow bg-primaryRed rounded-lg">
+                    <div className="text-center p-4 text-primaryYellow rounded-lg bg-red-800 ">
                         <img src="https://images.unsplash.com/photo-1515523110800-9415d13b84a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="Basketball" className="mx-auto mb-2 w-48 h-32 object-cover rounded-lg" />
                         <h4 className="font-semibold">Basketball</h4>
                         <p>Experience the thrill of basketball betting.</p>
                     </div>
-                    <div className="text-center p-4 text-primaryYellow bg-primaryRed rounded-lg">
+                    <div className="text-center p-4 text-primaryYellow bg-red-800 rounded-lg">
                         <img src="https://images.unsplash.com/photo-1595435742656-5272d0b3fa82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Tennis" className="mx-auto mb-2 w-48 h-32 object-cover rounded-lg" />
                         <h4 className="font-semibold">Tennis</h4>
                         <p>Place your bets on exciting tennis matches.</p>
                     </div>
-                    <div className="text-center p-4 text-primaryYellow bg-primaryRed rounded-lg">
+                    <div className="text-center p-4 text-primaryYellow bg-red-800 rounded-lg">
                         <img src="https://images.unsplash.com/photo-1558742619-fd82741daa99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Esports" className="mx-auto mb-2 w-48 h-32 object-cover rounded-lg" />
                         <h4 className="font-semibold">Esports</h4>
                         <p>Join the future of betting with Esports.</p>
@@ -81,24 +81,24 @@ export default function Section({ type, title })
 
 
                 {type === 'news' && (
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 bg-gradient-to-r from-primaryRed via-primaryYellow to-primaryRed text-white rounded-lg" id="news">
-                        <div className="p-4 bg-white bg-opacity-25 text-primaryRed rounded-lg shadow text-center">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 bg-gradient-to-r to-primaryRed from-primaryYellow text-white rounded-lg" id="news">
+                        <div className="p-4 bg-white bg-opacity-25 text-slate-100 rounded-lg shadow text-center">
                             <img src="https://images.unsplash.com/photo-1504279807002-09854ccc9b6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="News 1" className="mb-2 w-full h-48 object-cover rounded-lg" />
                             <h4 className="font-semibold">Latest Betting Trends</h4>
                             <p>Discover the latest trends in online betting.</p>
-                            <a href="#" className="text-primaryYellow underline">Read more</a>
+                            <a href="#" className="text-white underline">Read more</a>
                         </div>
-                        <div className="p-4 bg-primaryYellow bg-opacity-25 text-primaryRed rounded-lg shadow text-center">
+                        <div className="p-4 bg-primaryYellow bg-opacity-25 text-slate-100 rounded-lg shadow text-center">
                             <img src="https://images.unsplash.com/photo-1561034646-e37eb9c48abd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="News 2" className="mb-2 w-full h-48 object-cover rounded-lg" />
                             <h4 className="font-semibold">How to Bet Responsibly</h4>
                             <p>Learn how to enjoy betting while staying in control.</p>
-                            <a href="#" className="text-primaryRed underline">Read more</a>
+                            <a href="#" className="text-white underline">Read more</a>
                         </div>
-                        <div className="p-4 bg-white bg-opacity-25 text-primaryYellow rounded-lg shadow text-center">
+                        <div className="p-4 bg-white bg-opacity-25 text-slate-100 rounded-lg shadow text-center">
                             <img src="https://images.unsplash.com/photo-1542027953342-020384de63a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="News 3" className="mb-2 w-full h-48 object-cover rounded-lg" />
                             <h4 className="font-semibold">Understanding Odds</h4>
                             <p>Get to know how odds work in betting.</p>
-                            <a href="#" className="text-primaryRed underline">Read more</a>
+                            <a href="#" className="text-white underline">Read more</a>
                         </div>
                     </div>
                 )}
@@ -107,8 +107,8 @@ export default function Section({ type, title })
 
 
             {type === 'faqs' && (
-                <div className="p-4 bg-gradient-to-r from-primaryRed via-primaryYellow to-primaryRed text-white rounded-lg" id="faq">
-                    <h2 className="text-3xl font-semibold mb-4">Frequently Asked Questions</h2>
+                <div className="p-4 bg-gradient-to-r text-white rounded-lg" id="faq">
+                    <h2 className="text-3xl font-semibold mb-4 text-red-800">Frequently Asked Questions</h2>
                     <div className="grid md:grid-cols-3 gap-4">
                         <div className="p-4 bg-primaryRed rounded-lg shadow-md">
                             <h4 className="font-semibold text-primaryYellow">How do I create an account?</h4>
