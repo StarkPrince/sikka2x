@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 
 export default function Section({ type, title })
 {
@@ -8,9 +10,9 @@ export default function Section({ type, title })
             {type === 'hero' && (
                 <div className="text-center bg-cover bg-center" style={{ backgroundImage: 'url(/images/banner.jpg)' }}>
                     <div className="py-20 px-4 text-black">
-                        <h2 className="text-4xl font-bold">Welcome to Ultimate Betting</h2>
-                        <p className="mt-4 text-lg">Join and experience the thrill of online betting.</p>
-                        <button className="mt-6 bg-primaryYellow text-primaryRed px-8 py-3 rounded-lg">Get Started</button>
+                        <h2 className="text-4xl font-bold">Ready to put your cricket knowledge to the test and win real money? It's time to download the Sikka2x app and dive into the exciting world of cricket trivia!</h2>
+                        <p className="mt-4 text-lg">Join the Cricket Trivia Revolution with Sikka2x!</p>
+                        <button className="mt-6 bg-primaryYellow text-primaryRed px-8 py-3 rounded-lg">Play now </button>
                     </div>
                 </div>
             )}
@@ -19,19 +21,19 @@ export default function Section({ type, title })
             {type === 'how-it-works' && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 bg-amber-100 text-primaryRed `rounded-lg" id="about">
                     <div className="text-center p-4 m-2 bg-amber-300 text-primaryRed rounded-lg">
-                        <img src="https://plus.unsplash.com/premium_photo-1661589873567-7bd0bd808fcc?ixlib=rb-4.0.3" alt="Step 1" className="mx-auto mb-2 w-72 h-48 object-cover rounded-lg" />
-                        <h4 className="font-semibold">Create an Account</h4>
-                        <p>Sign up and create your betting account.</p>
+                        <Image src="/assets/stage 1.png" alt="Step 1" className="mx-auto mb-2 w-72 h-96 object-cover rounded-lg" width={720} height={480} />
+                        <h4 className="font-semibold">Stage One: Sign Up </h4>
+                        <p>To kick-off your cricket trivia adventure, download the Sikka2x app, register, and set up your wallet with a desired amount of money. For each question, an amount of 1/- will be staked from your wallet. Remember, this isn't just about the thrill of the game, but also about winning real money!</p>
                     </div>
                     <div className="text-center p-4 m-2 bg-amber-300 text-primaryRed rounded-lg">
-                        <img src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3" alt="Step 2" className="mx-auto mb-2 w-72 h-48 object-cover rounded-lg" />
-                        <h4 className="font-semibold">Make a Deposit</h4>
-                        <p>Add funds to your account using various payment methods.</p>
+                        <Image src="/assets/stage 2.png" alt="Step 1" className="mx-auto mb-2 w-72 h-96 object-cover rounded-lg" width={720} height={480} />
+                        <h4 className="font-semibold">Stage Two: The Quiz Game</h4>
+                        <p>Once you're ready to play, the app will pair you randomly with another player who's also ready for a cricket quiz showdown. You'll then be presented with a multiple-choice question (MCQ) about cricket, which you have to answer within 10 seconds. The race isn't just about being correct, it's about being the fastest to get it right!</p>
                     </div>
                     <div className="text-center p-4 m-2 bg-amber-300 text-primaryRed rounded-lg">
-                        <img src="https://images.unsplash.com/photo-1518133227682-c0e3e34de21b?ixlib=rb-4.0.3" alt="Step 3" className="mx-auto mb-2 w-72 h-48 object-cover rounded-lg" />
-                        <h4 className="font-semibold">Start Betting</h4>
-                        <p>Choose your games and place your bets.</p>
+                        <Image src="/assets/stage 3.png" alt="Step 1" className="mx-auto mb-2 w-72 h-96 object-cover rounded-lg" width={720} height={480} />
+                        <h4 className="font-semibold">Stage Three: Win & Earn</h4>
+                        <p>Upon answering the question, if you're faster and correct, you're the winner! You'll bag 2/- from that round and it will be added to your wallet. The thrill of winning, doubled by earning, brings an unparalleled joy and satisfaction. But fret not if you lose. Every new question is a new opportunity. So keep playing, keep learning, and keep earning!</p>
                     </div>
                 </div>
             )}
@@ -111,16 +113,39 @@ export default function Section({ type, title })
                     <h2 className="text-3xl font-semibold mb-4 text-red-800">Frequently Asked Questions</h2>
                     <div className="grid md:grid-cols-3 gap-4">
                         <div className="p-4 bg-primaryRed rounded-lg shadow-md">
-                            <h4 className="font-semibold text-primaryYellow">How do I create an account?</h4>
-                            <p className="text-white">Click on the "Sign Up" button on the homepage and fill in the registration form.</p>
+                            <h4 className="font-semibold text-primaryYellow">What is Sikka2x?</h4>
+                            <p className="text-white">Sikka2x is an exciting, real-money, cricket trivia quiz game. Users play against each other answering questions to win cash prizes.</p>
                         </div>
                         <div className="p-4 bg-primaryYellow rounded-lg shadow-md">
-                            <h4 className="font-semibold text-primaryRed">How do I deposit funds?</h4>
-                            <p className="text-white">Go to your account dashboard, click on "Deposit", and choose your preferred payment method.</p>
+                            <h4 className="font-semibold text-primaryRed">How do I start playing on Sikka2x?</h4>
+                            <p className="text-white">To start playing, you need to download the Sikka2x app, register, and set up your wallet with a minimum balance.</p>
                         </div>
                         <div className="p-4 bg-primaryRed rounded-lg shadow-md">
-                            <h4 className="font-semibold text-primaryYellow">Is my personal information safe?</h4>
-                            <p className="text-white">Yes, we take the security of our users' information very seriously. Your data is encrypted and protected.</p>
+                            <h4 className="font-semibold text-primaryYellow">Is Sikka2x legal?</h4>
+                            <p className="text-white">Yes, Sikka2x is a skill-based game and is completely legal. However, it is your responsibility to understand and comply with all applicable laws in your area.</p>
+                        </div>
+                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md">
+                            <h4 className="font-semibold text-primaryRed">What is the format of the game?</h4>
+                            <p className="text-white">Two players are randomly matched and presented with a cricket-related multiple-choice question. Each player stakes 1/- on the answer, and the player who answers correctly the fastest wins 2/-.</p>
+                        </div>                        
+                        <div className="p-4 bg-primaryRed rounded-lg shadow-md">
+                            <h4 className="font-semibold text-primaryYellow">How many questions will I be asked per game?</h4>
+                            <p className="text-white">Each game consists of one question. However, you can play as many games as you want as long as you have a balance in your wallet.</p>
+                        </div>                        
+                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md">
+                            <h4 className="font-semibold text-primaryRed">What if there is a tie between two players?</h4>
+                            <p className="text-white">In the rare event of a tie, the prize money is equally split between the two players.
+                            </p>
+                        </div>
+                        <div className="p-4 bg-primaryRed rounded-lg shadow-md">
+                            <h4 className="font-semibold text-primaryYellow">What happens if I answer the question incorrectly?</h4>
+                            <p className="text-white">If you answer incorrectly, you will lose the 1/- that was staked on that question.
+                            </p>
+                        </div>
+                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md">
+                            <h4 className="font-semibold text-primaryRed">Can I withdraw my winnings?</h4>
+                            <p className="text-white">Yes, you can withdraw your winnings to your bank account. 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -129,7 +154,7 @@ export default function Section({ type, title })
 
             {type === 'contact' && (
                 <div id="contact" className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                    <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                    {/* <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                         <iframe
                             width="100%"
                             height="100%"
@@ -160,10 +185,10 @@ export default function Section({ type, title })
                                 <p className="leading-relaxed text-primaryYellow">+123 456 7890</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <form
                         name="contact"
-                        className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 bg-primaryRed rounded-lg p-6">
+                        className="flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 bg-primaryRed rounded-lg p-6">
                         <h2 className="text-primaryYellow sm:text-4xl text-3xl mb-1 font-medium title-font">
                             Contact us
                         </h2>

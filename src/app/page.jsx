@@ -11,8 +11,8 @@ export default function Home() {
 
             <main className="flex-grow">
                 <Section type="hero" />
-                <Section type="how-it-works" title="How It Works" />
-                <Section type="featured-games" title="Featured Games" />
+                <Section type="how-it-works" title="How It Works -" />
+                {/* <Section type="featured-games" title="Featured Games" /> */}
                 <Section type="testimonials" title="What Our Users Say" />
                 <Section type="news" title="Latest News and Articles" />
                 <Section type="faqs" />

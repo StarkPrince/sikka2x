@@ -4,10 +4,11 @@ export default function Footer() {
         <div className="container mx-auto">
           <div className="flex justify-between">
             <div>
-              <h3 className="font-bold text-primaryYellow">Betting App</h3>
-              <p className="text-white">123 Street, City, Country</p>
-              <p className="text-white">Email: info@bettingapp.com</p>
-              <p className="text-white">Phone: +123 456 7890</p>
+              <h3 className="font-bold text-primaryYellow">SIKKA 2X</h3>
+              <p className="text-white">GameTech Studio</p>
+              <p className="text-white">Pune, Maharashtra - 412207 </p>
+              <p className="text-white">Contact: 7610051000</p>
+              <p className="text-white">Email: Admin@sikka2x.com</p>
             </div>
             <div>
               <h3 className="font-bold text-primaryYellow">Quick Links</h3>
@@ -18,7 +19,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="text-center mt-4 text-white">
-            <p>© 2023 Betting App. All rights reserved.</p>
+            <p>© 2023 SIKKA 2X. All rights reserved.</p>
           </div>
         </div>
       </footer>
