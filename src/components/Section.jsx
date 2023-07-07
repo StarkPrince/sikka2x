@@ -111,38 +111,38 @@ export default function Section({ type, title })
             {type === 'faqs' && (
                 <div className="p-4 bg-gradient-to-r text-white rounded-lg" id="faq">
                     <h2 className="text-3xl font-semibold mb-4 text-red-800">Frequently Asked Questions</h2>
-                    <div className="grid md:grid-cols-3 gap-4">
-                        <div className="p-4 bg-primaryRed rounded-lg shadow-md">
+                    <div className="grid-cols-1 gap-4">
+                        <div className="p-4 bg-primaryRed rounded-lg shadow-md my-4 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-red-900">
                             <h4 className="font-semibold text-primaryYellow">What is Sikka2x?</h4>
                             <p className="text-white">Sikka2x is an exciting, real-money, cricket trivia quiz game. Users play against each other answering questions to win cash prizes.</p>
                         </div>
-                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md">
+                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md my-4 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-yellow-500">
                             <h4 className="font-semibold text-primaryRed">How do I start playing on Sikka2x?</h4>
                             <p className="text-white">To start playing, you need to download the Sikka2x app, register, and set up your wallet with a minimum balance.</p>
                         </div>
-                        <div className="p-4 bg-primaryRed rounded-lg shadow-md">
+                        <div className="p-4 bg-primaryRed rounded-lg shadow-md my-4 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-red-900">
                             <h4 className="font-semibold text-primaryYellow">Is Sikka2x legal?</h4>
                             <p className="text-white">Yes, Sikka2x is a skill-based game and is completely legal. However, it is your responsibility to understand and comply with all applicable laws in your area.</p>
                         </div>
-                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md">
+                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md my-4 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-yellow-500">
                             <h4 className="font-semibold text-primaryRed">What is the format of the game?</h4>
                             <p className="text-white">Two players are randomly matched and presented with a cricket-related multiple-choice question. Each player stakes 1/- on the answer, and the player who answers correctly the fastest wins 2/-.</p>
                         </div>                        
-                        <div className="p-4 bg-primaryRed rounded-lg shadow-md">
+                        <div className="p-4 bg-primaryRed rounded-lg shadow-md my-4 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-red-900">
                             <h4 className="font-semibold text-primaryYellow">How many questions will I be asked per game?</h4>
                             <p className="text-white">Each game consists of one question. However, you can play as many games as you want as long as you have a balance in your wallet.</p>
                         </div>                        
-                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md">
+                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md my-4 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-yellow-500">
                             <h4 className="font-semibold text-primaryRed">What if there is a tie between two players?</h4>
                             <p className="text-white">In the rare event of a tie, the prize money is equally split between the two players.
                             </p>
                         </div>
-                        <div className="p-4 bg-primaryRed rounded-lg shadow-md">
+                        <div className="p-4 bg-primaryRed rounded-lg shadow-md my-4 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-red-900">
                             <h4 className="font-semibold text-primaryYellow">What happens if I answer the question incorrectly?</h4>
                             <p className="text-white">If you answer incorrectly, you will lose the 1/- that was staked on that question.
                             </p>
                         </div>
-                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md">
+                        <div className="p-4 bg-primaryYellow rounded-lg shadow-md my-4 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-yellow-500">
                             <h4 className="font-semibold text-primaryRed">Can I withdraw my winnings?</h4>
                             <p className="text-white">Yes, you can withdraw your winnings to your bank account. 
                             </p>
